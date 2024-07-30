@@ -7,7 +7,7 @@ var showdate = new Date();
 var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 var displaydate = showdate.getDate() + ' ' + monthNames[showdate.getMonth()] + ' ' + showdate.getFullYear();
 let dt = showdate.toDateString()
-let displaytime=showdate.getHours()+'.'+showdate.getMinutes()
+let displaytime=showdate.getHours()+':'+showdate.getMinutes()
 
 function Landing()
 {
